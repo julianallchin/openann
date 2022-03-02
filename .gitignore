@@ -1,0 +1,3 @@
+mnist_train.csv
+/__pycache__/*
+/backprop_toolkit/*
