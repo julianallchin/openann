@@ -27,8 +27,8 @@ nn.setLearningRate(lr)
 
 # Train
 for i in training_data.range():
-	nn.train(i.inputs, i.correctOutput) # Backpropagation
-	print(nn.accuracy)
+    nn.train(i.inputs, i.correctOutput) # Backpropagation
+    print(nn.accuracy)
 nn.save('weights.npy') # save the knowledge for later
 
 # Guess - That is, when you want to use a trained network
