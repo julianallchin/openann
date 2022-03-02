@@ -1,4 +1,5 @@
 mnist_train.csv
-*/__pycache__/*
+__pycache__/
 /backprop_toolkit/*
 .DS_Store
+.vscode
